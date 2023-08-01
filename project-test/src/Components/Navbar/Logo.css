@@ -1,0 +1,26 @@
+.Logo {
+  color: #5e2592;
+  font-size: 40px;
+  font-weight: lighter;
+}
+.Lema {
+  color: #bababa;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.LogoLema {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:baseline;
+  gap: 1rem;
+}
+
+
+/* Media query */
+@media (max-width: 650px) {
+    .Lema {
+      display: none;
+    }
+  }

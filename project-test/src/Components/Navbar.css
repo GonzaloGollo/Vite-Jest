@@ -1,0 +1,24 @@
+nav {
+  max-height: 50px;
+  height: 60px;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+a {
+  color: black;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  list-style-type: none;
+  padding: 0rem;
+}

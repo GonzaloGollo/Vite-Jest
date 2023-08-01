@@ -1,16 +1,22 @@
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
+import { Routes, Route } from "react-router-dom";
+import Home from "./Routes/Home";
+import Error from "./Components/Error";
 
-import './App.css'
 
 function App() {
-
-
   return (
     <>
-      <p>
-        Click on the Vite and React logos to learn more
-      </p>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path='*' element={<Error />} />
+      </Routes>
+
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
