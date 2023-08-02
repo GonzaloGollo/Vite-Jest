@@ -1,10 +1,32 @@
 .ImgCard {
-  height: 180px;
+  height: 200px;
   width: 180px;
+  border-radius: 10px 0 0 10px;
+  margin-right: 0px;
 }
 
 .texto-card {
-    display: flex;
+  display: flex;
   justify-content: space-between;
   flex-direction: column;
+  background-color: aliceblue;
+  height: 200px;
+  width: 200px;
+  padding-left: 1rem;
+  
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  /* gap: 0.5rem; */
+  align-items: center;
+  width: 350px;
+  height: 200px;
+  border-radius: 11px 11px 11px 11px;
+  -webkit-border-radius: 11px 11px 11px 11px;
+  -moz-border-radius: 11px 11px 11px 11px;
+  /* padding: 1rem; */
+  border: 0.5px solid #cbe4de;
 }

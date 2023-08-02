@@ -20,7 +20,7 @@ const Categorias = () => {
 
   return (
     <div className="segmento-categorias">
-      <div className="txt-titulo-servicio">Busca por tipo de servicio</div>
+      <h3 className="txt-titulo-servicio">Busca por tipo de servicio / Trae categorias de api</h3>
       <div className="categorias">
         {producto.length ? (
           producto.slice(0, 6).map((productos) => (

@@ -7,21 +7,19 @@
     width: 95vw;
     height: auto;
     gap: 1rem;
-    padding: 0 2rem;
+    /* padding: 0 2rem; */
     margin-top: 1rem;
+    
 }
 
-.card-body {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    gap: 0.5rem;
-    align-items: center;
-    width: 300px;
-    height: 200px;
-    border-radius: 11px 11px 11px 11px;
-    -webkit-border-radius: 11px 11px 11px 11px;
-    -moz-border-radius: 11px 11px 11px 11px;
-    padding: 0.5rem;
-    border: 0.5px solid #cbe4de;
-  }
+
+.txt-titulo-recomendaciones {
+    font-size: 20px;
+    color: #717171;
+
+}
+
+.segmento-recomendaciones {
+    margin-top:1rem;
+    padding: 0 2rem; 
+}

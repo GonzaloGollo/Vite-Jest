@@ -26,9 +26,10 @@ const [producto, setProducto] = useState([]);
   const productosAleatorios = getRandomProducts();
 
   return (
-    <>
+    <div className="segmento-recomendaciones">
+    <h3 className="txt-titulo-recomendaciones">Recomendaciones    / Trae categorias de api</h3>
       <div className="Recomendaciones">
-
+      
       {productosAleatorios.length ? (
         productosAleatorios.map((productos) => (
           <CardProducto className="card-body"
@@ -41,7 +42,7 @@ const [producto, setProducto] = useState([]);
         <h3> No encontramos productos para recomendar </h3>
       )}
       </div>
-    </>
+    </div>
   );
 };
 
