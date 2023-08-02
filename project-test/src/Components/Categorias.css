@@ -1,0 +1,30 @@
+.categorias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 95vw;
+    height: 220px;
+    gap: 1rem;
+    /* padding: 0 2rem; */
+    
+}
+
+.txt-titulo-servicio {
+    font-size: 20px;
+    color: #717171;
+}
+
+.segmento-categorias {
+    margin-top:1rem;
+    padding: 0 2rem;
+}
+
+/* .card-categoria{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 0.5rem;
+
+} */

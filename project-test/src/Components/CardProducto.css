@@ -1,0 +1,10 @@
+.ImgCard {
+  height: 180px;
+  width: 180px;
+}
+
+.texto-card {
+    display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}

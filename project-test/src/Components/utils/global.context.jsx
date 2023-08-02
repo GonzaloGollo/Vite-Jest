@@ -6,7 +6,7 @@ export const ContextProvider = ({ children }) => {
 const [producto, setProducto] = useState([]);
 
 const getDatos = async () => {
-  const res = await fetch("https://jsonplaceholder.typicode.com/photos");
+  const res = await fetch("https://jsonplaceholder.typicode.com/photos/");
   const data = await res.json();
   setProducto(data);
 };

@@ -1,8 +1,8 @@
 import React from 'react'
-
+import "./Buscador.css"
 const Buscador = () => {
   return (
-    <div>Buscador</div>
+    <div className='buscador'>Buscador</div>
   )
 }
 
