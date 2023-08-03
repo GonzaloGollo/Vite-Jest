@@ -35,18 +35,17 @@
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-weight: 300;
+  max-height: 1.5rem;
   overflow: hidden;
   padding: 0.7rem 2rem;
   position: relative;
-  text-decoration: none;
-  transition: 0.2s transform ease-in-out;
+  transition: 0.2s transform ease;
   will-change: transform;
   z-index: 0;
 }
 
 .boton::after {
   background-color: #ff385c;
-  border-radius: 3rem;
   content: "";
   display: block;
   height: 100%;
@@ -55,9 +54,9 @@
   left: 0;
   top: 0;
   box-shadow:none;
-  transform: translate(-100%, 0) rotate(10deg);
-  transform-origin: top left;
-  transition: 0.15s transform ease-out;
+  transform: translate(-100%, 0) rotate(1deg);
+  transform-origin: top;
+  transition: 0.15s transform ease;
   will-change: transform;
   z-index: -1;
 }
@@ -69,10 +68,10 @@
 }
 
 .boton:hover {
-  border: 2px solid transparent;
+  border: 2px solid #c3c3c3;
   color: rgb(255, 255, 255);
   transform: scale(1.05);
   font-weight: 500;
   will-change: transform;
-  box-shadow:none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
