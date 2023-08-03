@@ -1,32 +1,68 @@
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  /* gap: 0.5rem; */
+  align-items: center;
+  width: 295px;
+  height: 350px;
+  border-radius: 11px 11px 11px 11px;
+  -webkit-border-radius: 11px 11px 11px 11px;
+  -moz-border-radius: 11px 11px 11px 11px;
+  
+  border: 0.5px solid #cbe4de;
+}
+
 .ImgCard {
-  height: 200px;
-  width: 180px;
-  border-radius: 10px 0 0 10px;
+  width: 295px;
+  height: 260px;
+  border-radius: 10px 10px 10px 10px;
   margin-right: 0px;
 }
 
 .texto-card {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
+  align-items: flex-start;
   flex-direction: column;
-  background-color: aliceblue;
-  height: 200px;
-  width: 200px;
-  padding-left: 1rem;
-  
+  background-color: rgb(255, 255, 255);
+  height: 100px;
+  width: 295px;
+  border-radius: 0px 10px 10px 0px;
+  /* ----------- Borrar despues de poner dinamicas las categorias */
+  white-space: nowrap; /* Evita el salto de línea */
+  overflow: hidden; /* Oculta el contenido que excede el ancho */
+  text-overflow: ellipsis; /* Muestra puntos suspensivos (...) cuando el contenido excede el ancho */
+   max-width: 280px;/* Ajusta este valor según el ancho deseado */
+
 }
 
-.card-body {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  /* gap: 0.5rem; */
-  align-items: center;
-  width: 350px;
-  height: 200px;
-  border-radius: 11px 11px 11px 11px;
-  -webkit-border-radius: 11px 11px 11px 11px;
-  -moz-border-radius: 11px 11px 11px 11px;
-  /* padding: 1rem; */
-  border: 0.5px solid #cbe4de;
+.titulo-card-producto {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: #717171;
+  line-height: 20px;
+  width: 295px;
+
+}
+
+.descripcion-card {
+  max-height: 50px;
+  line-height: 20px;
+   /* ----------- Borrar despues de poner dinamicas las categorias */
+   white-space: wrap; /* Evita el salto de línea */
+   overflow: hidden; /* Oculta el contenido que excede el ancho */
+   text-overflow: ellipsis; /* Muestra puntos suspensivos (...) cuando el contenido excede el ancho */
+   max-width: 295px; /* Ajusta este valor según el ancho deseado */
+   
+}
+
+.precio {
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  
+  margin: 0;
+  padding: 0;
 }

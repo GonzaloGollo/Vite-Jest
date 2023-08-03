@@ -11,7 +11,7 @@ const Navbar = () => {
       <nav>
         <ul>
           <li>
-            <Logo/>
+            <Logo />
           </li>
 
           <div
@@ -23,24 +23,22 @@ const Navbar = () => {
             }}
           >
             <li>
-              <BotonCrearCuenta/>
+              <BotonCrearCuenta />
             </li>
             <li>
-              <BotonInicio/>
+              <BotonInicio />
             </li>
           </div>
         </ul>
       </nav>
-
-      
     </>
   );
 };
 
 export default Navbar;
 
-
-{/* <div
+{
+  /* <div
         style={{
           display: "flex",
           flexDirection: "row",
@@ -69,4 +67,5 @@ export default Navbar;
           <BotonCrearCuenta />
           <BotonInicio />
         </div>
-      </div> */}
+      </div> */
+}

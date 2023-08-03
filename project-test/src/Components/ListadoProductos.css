@@ -1,0 +1,25 @@
+.recomendaciones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 95vw;
+    height: auto;
+    gap: 1rem;
+    /* padding: 0 2rem; */
+    margin-top: 1rem;
+    
+}
+
+
+.txt-titulo-listado-productos {
+    font-size: 20px;
+    color: #717171;
+
+}
+
+.segmento-listado-productos {
+    margin-top:1rem;
+    padding: 0 2rem; 
+}

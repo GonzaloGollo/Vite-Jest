@@ -1,32 +1,53 @@
 .card-categoria {
   display: flex;
+  flex-wrap: nowrap;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 250px;
-  height: 140px;
+  /* gap: 2rem; */
+  width: 220px;
+  height: 100px;
   border-radius: 11px 11px 11px 11px;
   -webkit-border-radius: 11px 11px 11px 11px;
   -moz-border-radius: 11px 11px 11px 11px;
   padding: 0.5rem;
+  /* margin: 0.5rem; */
   /* border: 0.5px solid #cbe4de; */
 }
 
-.ImgCardCategoria {
-  height: 80px;
-  width: 150px;
+.fondo-icono-categoria {
+  width: 107px;
+  height: 70px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
+
+.fondo-icono-categoria:hover{
+  
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* .ImgCardCategoria {
+  height: 60px;
+  width: 150px;
+} */
 
 .texto-card-categoria {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  font-size: 18px;
+  font-size: 16px;
   color: #717171;
 
   /* ----------- Borrar despues de poner dinamicas las categorias */
   white-space: nowrap; /* Evita el salto de línea */
   overflow: hidden; /* Oculta el contenido que excede el ancho */
   text-overflow: ellipsis; /* Muestra puntos suspensivos (...) cuando el contenido excede el ancho */
-  max-width: 200px; /* Ajusta este valor según el ancho deseado */
+  max-width: 180px; /* Ajusta este valor según el ancho deseado */
+}
+
+@media (max-width: 650px) {
+  .ImgCardCategoria {
+    display: none;
+  }
 }

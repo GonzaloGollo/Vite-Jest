@@ -1,0 +1,29 @@
+.Recomendaciones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 95vw;
+    height: auto;
+    gap: 1rem;
+    /* padding: 0 2rem; */
+    margin-top: 1rem;
+    overflow: hidden;
+    
+}
+
+
+.txt-titulo-recomendaciones {
+    font-size: 20px;
+    color: #717171;
+
+}
+
+.segmento-recomendaciones {
+    margin-top:1rem;
+    margin-bottom: 2rem;
+    padding: 0 2rem; 
+    height: 265px;
+    overflow: hidden;
+}
