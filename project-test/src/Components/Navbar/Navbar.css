@@ -1,10 +1,11 @@
 .header {
-  height: 250px;
+  height: 200px;
   display: flex;
   flex-direction:column ;
   justify-content: space-between;
   top: 0;
   position: fixed;
+  z-index: 10;
   width: 100%;
   background-color: white;
   padding-bottom: 1rem;
@@ -15,10 +16,7 @@ nav {
   padding: 0 0rem;
   width: 100%;
   top: 0;
-  /* position: sticky; */
-  z-index: 9;
   overflow: hidden;
-  /* margin-bottom: 1.5rem; */
 }
 
 ul {
@@ -26,10 +24,6 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* align-items: center; */
-
-  /* top: 0;
-  left: 0; */
   list-style-type: none;
   padding: 1rem 0rem;
   margin: auto;
@@ -40,4 +34,16 @@ ul {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
+}
+.buscador-cat {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  padding: 1rem;
+  gap: 1rem;
+  
 }

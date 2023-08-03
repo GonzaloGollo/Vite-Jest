@@ -13,16 +13,27 @@ const Navbar = () => {
       <div className="header">
         <nav className="caja-blanca-sombreada">
           <ul>
-            <li> <Logo /> </li>
+            <li>
+              {" "}
+              <Logo />{" "}
+            </li>
 
             <div className="botones-header">
-              <li> <BotonCrearCuenta /> </li>
-              <li> <BotonInicio /> </li>
+              <li>
+                {" "}
+                <BotonCrearCuenta />{" "}
+              </li>
+              <li>
+                {" "}
+                <BotonInicio />{" "}
+              </li>
             </div>
           </ul>
         </nav>
-        <Buscador/>
-        <Categorias />
+        <div className="buscador-cat">
+          <Buscador />
+          <Categorias />
+        </div>
       </div>
     </>
   );

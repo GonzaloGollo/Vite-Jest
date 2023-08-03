@@ -9,16 +9,18 @@ const CardProducto = ({ title, url, id, descripcion }) => {
 
   return (
     <>
-      <Link to={"/producto/" + id}>
+      
         <div className="card-body">
+        <Link to={"/producto/" + id}>
           <img className="ImgCard" src={url} alt="Foto producto" />
           <div className="texto-card">
             <h3 className="titulo-card-producto">{title}</h3>
             <p className="descripcion-card">{descripcion}</p>
             <p className="precio">${id}</p>
           </div>
+          </Link>
         </div>
-      </Link>
+      
     </>
   );
 };

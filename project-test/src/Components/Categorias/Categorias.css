@@ -1,18 +1,13 @@
 .segmento-categorias {
-  width: 95%vw;
+  /* width: 50%; */
   height: 90px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content:space-evenly;
+  justify-content:space-between;
   align-items: center;
-
   overflow: hidden;
   white-space: nowrap;
-  /* ///////////////////////////// */
-  /* border: 1px red solid; */
-
-  /* position: fixed; */
 }
 
 .txt-titulo-servicio {

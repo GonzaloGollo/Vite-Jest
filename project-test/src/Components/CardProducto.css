@@ -2,15 +2,14 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  /* gap: 0.5rem; */
   align-items: center;
   width: 295px;
   height: 350px;
   border-radius: 11px 11px 11px 11px;
   -webkit-border-radius: 11px 11px 11px 11px;
   -moz-border-radius: 11px 11px 11px 11px;
-  
-  border: 0.5px solid #cbe4de;
+  margin-left: 3rem;
+  /* border: 1px solid red; */
 }
 
 .ImgCard {

@@ -1,69 +1,52 @@
-
 .segmento-listado-productos {
-    display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center; 
-  justify-content: center;
-  width: 95%;
+  align-items:center;
+  justify-content: center; */
+  width: 100%;
   margin: 0;
-
-} 
-.txt-titulo-listado-productos {
-    font-size: 20px;
-    color: #717171;
+  /* position: relative; */
+  z-index: 0;
 }
+.txt-titulo-listado-productos {
+  font-size: 20px;
+  color: #717171;
+  /* content: ""; */
+}
+/* .listado-productos {
+  border: 1px solid red;
+} */
 
-.listado-productos {
-    width: 95vw;
-    height: auto;
-    gap: 1rem;
-    margin-top: 1rem;
+.item-grid {
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* 5 columnas de igual tamaño */
-    grid-template-rows:  auto; /* 2 filas de altura fija de 100px cada una */
-    gap: 1rem; /* Espacio entre los elementos */
-    
-    
-
-    @media (max-width: 768px) {
-        grid-template-columns: repeat(3, 1fr);
-      }
-    
-      /* Media query para 2 columnas en pantallas aún más pequeñas */
-      @media (max-width: 480px) {
-        grid-template-columns: repeat(2, 1fr);
-      }
-    
-      /* Media query para 1 columna en pantallas muy pequeñas */
-      @media (max-width: 320px) {
-        grid-template-columns: 1fr;
-      }
-}
-
-.item-grid {
-    display: flex;
-  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  gap: 1rem;
   justify-content: center;
-  background-color: #f0f0f0;
-  font-size: 24px;
- 
-}
+  align-items: center;
 
+  @media (max-width: 1900px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
 
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
-.listado-productos {
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center; */
-    width: 95vw;
-    height: auto;
-    gap: 1rem;
-    /* padding: 0 2rem; */
-    margin-top: 1rem;
-    
+  @media (max-width: 480px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 370px) {
+    grid-template-columns: 1fr;
+  }
 }

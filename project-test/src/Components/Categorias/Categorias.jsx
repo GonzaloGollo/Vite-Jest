@@ -46,14 +46,14 @@ const Categorias = () => {
         </div>
         <div className="nombre-icono-categoria">Office house</div>
       </div>
-
+{/* 
       <div className="card-categoria">
         <div className="fondo-icono caja-blanca-sombreada">
           <GiOfficeChair style={{ color: "grey", fontSize: "40px" }} />
         </div>
         <div className="nombre-icono-categoria">Puesto de Trabajo</div>
-      </div>
-
+      </div> */}
+{/* 
       <div className="card-categoria">
         <div className="fondo-icono caja-blanca-sombreada">
           <HiOutlineBuildingStorefront
@@ -75,7 +75,7 @@ const Categorias = () => {
           <HiMiniComputerDesktop style={{ color: "grey", fontSize: "40px" }} />
         </div>
         <div className="nombre-icono-categoria">Material tecnico</div>
-      </div>
+      </div> */}
 
     </div>
   );

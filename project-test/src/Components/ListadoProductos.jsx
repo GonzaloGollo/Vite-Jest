@@ -4,17 +4,7 @@ import { useState, useEffect } from "react";
 import "./ListadoProductos.css";
 
 const ListadoProductos = () => {
-  // const [producto, setProducto] = useState([]);
 
-  //   const getProductos = async () => {
-  //     const res = await fetch("https://jsonplaceholder.typicode.com/photos/");
-  //     const data = await res.json();
-  //     setProducto(data);
-  //   };
-
-  //   useEffect(() => {
-  //     getProductos();
-  //   }, []);
 
   const productos = [
     {
@@ -91,7 +81,7 @@ const ListadoProductos = () => {
   return (
     <div className="segmento-listado-productos">
       <h3 className="txt-titulo-listado-productos"></h3>
-
+    
       <div className="listado-productos grid-container">
         {productosAleatorios.length ? (
           productosAleatorios.map((producto, index) => (
@@ -100,7 +90,7 @@ const ListadoProductos = () => {
               className="card-body item-grid"
               title={producto.name}
               descripcion={producto.descripcion}
-              url={producto.src} // Use the index to access the corresponding image URL
+              url={producto.src} 
               id={producto.id}
             />
           ))
@@ -113,3 +103,17 @@ const ListadoProductos = () => {
 };
 
 export default ListadoProductos;
+
+
+//////
+  // const [producto, setProducto] = useState([]);
+
+  //   const getProductos = async () => {
+  //     const res = await fetch("https://jsonplaceholder.typicode.com/photos/");
+  //     const data = await res.json();
+  //     setProducto(data);
+  //   };
+
+  //   useEffect(() => {
+  //     getProductos();
+  //   }, []);
