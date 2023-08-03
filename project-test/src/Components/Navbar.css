@@ -1,9 +1,17 @@
 nav {
-  max-height: 50px;
-  height: 60px;
+  margin: 0;
+  /* max-height: 50px; */
+  height: 80px;
   padding: 0 2rem;
-  margin-bottom: 2rem;
-  /* width: 100vh; */
+  /* margin-bottom: 2rem; */
+  background-color: aliceblue;
+  width: 100%; 
+  top:0;
+  position:fixed;
+  z-index: 9;
+
+  
+  
 }
 
 a {
@@ -16,10 +24,11 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  position: sticky;
-  top: 0;
-  left: 0;
+  /* align-items: center; */
+  
+  /* top: 0;
+  left: 0; */
   list-style-type: none;
-  padding: 0rem;
+  padding: 1rem 0rem ;
+  margin: 0;
 }

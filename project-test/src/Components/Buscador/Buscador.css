@@ -8,9 +8,10 @@
     height: 50px;
     margin-top: 0.2rem;
     padding: 0 2rem;
-    background-color: #f7fffd;
+    background-color: #ffffff;
     gap: 1rem;
     color: rgb(126, 125, 125);
+    z-index: 3;
     
     
   }
